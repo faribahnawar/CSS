@@ -1,0 +1,118 @@
+body{
+    font-family: "Libre Baskerville", serif;
+    margin: 50px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+div.container {
+    text-align: center;
+  }
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+
+p{
+    text-align: center;
+}
+
+u{
+    text-align: center;
+    display: block;
+    margin: 0px;
+    padding: 15px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(153, 185, 221);
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    height: auto;
+    margin: 0px;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(131, 162, 197);
+}
+.navbar li{
+    width: 100px;
+}
+.skills ul {
+    justify-content: center;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    background-color: rgb(184, 211, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+}
